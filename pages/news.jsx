@@ -6,10 +6,10 @@ import { BookMarkContext } from "@/BookMarkContext";
 // https://newsdata.io/api-key
 /* 
 kan gå in på länken nedanför för att se APIt
-https://newsdata.io/api/1/news?apikey=pub_382120086c1799d089c0da41a4c9ee4d8a9ec&q=pizza
+https://newsdata.io/api/1/news?apikey=DIN_NYCKEL&q=pizza
  */
 
-const myAPI_KEY = "pub_382120086c1799d089c0da41a4c9ee4d8a9ec"; // 200 hämtningar per dag?
+const myAPI_KEY = ""; // 200 hämtningar per dag?
 
 export default function News() {
   const [articles, setArticles] = useState([]);

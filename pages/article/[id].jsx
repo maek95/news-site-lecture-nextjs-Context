@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
- const myAPI_KEY = "pub_382120086c1799d089c0da41a4c9ee4d8a9ec";
+ const myAPI_KEY = "";
 
  export default function Article(props) {
   console.log("Article props", props);
